@@ -7,7 +7,7 @@ try:
     APP_ID = "9976721"
     API_HASH = "3ef17a8cdb938335bd8ba292e6d816aa"
     BOT_TOKEN = "6477686410:AAHUQVc8Irs4icV0FJc1Vbj_R6CUn7--wXs"
-    DEV = "1956698956"
+    DEV = 1956698956
     OWNER = "1956698956"
     ffmpegcode = ["-preset faster -c:v libx265 -s 854x480 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -metadata 'title=Encoded By TGVid-Comp (https://github.com/Zylern/TGVid-Comp)' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1"]
     THUMBNAIL = config("THUMBNAIL", default="https://telegra.ph/file/f9e5d783542906418412d.jpg"
